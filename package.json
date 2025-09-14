@@ -1,10 +1,11 @@
 {
   "name": "@virendrak-dev/test-utility",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepublishOnly": "npm test"
   },
   "devDependencies": {
     "jest": "^29.0.0"
