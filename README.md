@@ -1,4 +1,4 @@
-# My Utils
+# Tes Utility Package
 
 A simple utility library published via GitHub Packages.
 
