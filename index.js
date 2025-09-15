@@ -6,4 +6,8 @@ function capitalize(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-module.exports = { formatDate, capitalize };
+function test_method(str) {
+  return 'test_method';
+}
+
+module.exports = { formatDate, capitalize, test_method };
